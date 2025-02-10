@@ -1,0 +1,174 @@
+*{
+  font-family: Bebas Neue, Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: whitesmoke;
+
+}
+
+  
+.container-1{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  flex: 1; 
+}
+
+
+.top{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.profile-picture{
+  margin-top: 80px;
+  border-radius: 3px;
+  width: 450px;
+  height: 380px;
+  object-fit: cover;
+  object-position: 50% 32%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.profile-picture:hover{
+  transform: scale(1.02) translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-text{
+  margin-top: 80px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 380px;
+  background-color: rgb(255, 255, 255);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: black;
+}
+
+.about-me-head{
+margin-top: 50px;
+}
+
+.about-me{
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.my,
+.cv{
+  font-size: 25px;
+  color: black;
+}
+
+.profile-text:hover{
+  transform: scale(1.02) translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bottom{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 12px;
+  margin-top: 160px;
+  margin-bottom: 80px;
+  position: relative;
+  bottom: 50px;
+}
+
+.project{
+  border-radius: 3px;
+  height: 360px;
+  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+
+.project:hover{
+  transform: scale(1.02) translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pic-1-start{
+  height: 360px;
+  width: 220px;
+  object-fit: cover;
+  object-position: 100% 50%;
+  border-radius: 3px;
+}
+
+.pic-2-start{
+  height: 360px;
+  width: 220px;
+  object-fit: cover;
+  object-position: 60% 50%;
+  border-radius: 3px;
+}
+
+.pic-3-start{
+  height: 360px;
+  width: 220px;
+  object-fit: cover;
+  object-position: 20% 50%;
+  border-radius: 3px;
+}
+
+.pic-4-start{
+  height: 360px;
+  width: 220px;
+  object-fit: cover;
+  object-position: 60% 50%;
+  border-radius: 4px;
+}
+
+
+  .myProjects{
+  position: relative;
+  color: rgb(0, 0, 0);
+  top: 120px;
+  font-size: 50px;
+  margin-top: 0;
+}
+
+  
+  
+  @media (max-width: 945px) {
+    .bottom {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 500px) {
+    .bottom {
+        grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 930px) {
+    .top{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .button{
+    width: 30px;
+    height: 10px;
+  }
+
+  #info{
+    width: 50px;
+    height: 50px;
+  }
+
+

@@ -1,0 +1,48 @@
+body {
+  font-family: Bebas Neue;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 20px;
+  list-style: none;
+  min-width: 325px;
+}
+
+.cv {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+h2, h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+p, ul {
+  line-height: 1.6;
+  list-style: none;
+  font-size: 18px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.home-cv{
+  color: black;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+

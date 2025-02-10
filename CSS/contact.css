@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  flex-direction: column;
+  background-color: white;
+  font-family: Bebas neue;
+  }
+
+  .contact-form{
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .home-contact{
+    color: black;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  h2{
+    font-weight:500;
+  }
+
+  p{
+    font-size: larger;
+  }
+
+  .your-question{
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  }
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  position: relative;
+  top: 150px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  margin-bottom: 10px; 
+  border-radius: 3px;
+  border: solid;
+  border-width: 2px;
+  font-family: Bebas Neue;
+  font-size: medium;
+}
+
+.contact-form button:hover{
+  background-color:rgba(0, 0, 0, 0.2);
+}
+
+
+
