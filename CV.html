@@ -1,61 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="CSS/cv.css">
-  <title>CV</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt CV</title>
+    <link rel="stylesheet" href="CSS/cv.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  
-  
-  <a href="start-page.html" class="home-cv">Home</a>
-  <div class="cv">
-    
-    <h2>CV</h2>
 
-    <h3>Personuppgifter</h3>
-    <p>
-        Carl Andersson<br>
-        28 år<br>
-        Kopparvägen 31<br>
-        070-1234567
-    </p>
+    <a href="start-page.html" class="home-cv">Home</a>
 
-    <h3>Utbildning</h3>
-    <ul>
-        <li>Grundskola - Bjursås skola</li>
-        <li>Gymnasium - Byggprogrammet, Lugnet Gymnasieskola i Falun</li>
-        <li>Creative Technologies, NABA Universitet i Milano</li>
-        <li>Pågående YH-utbildning i frontendutveckling JavaScript</li>
-    </ul>
+    <div class="cv">
+        <h2>CV</h2>
 
-    <h3>Språk</h3>
-    <ul>
-        <li>Svenska - Modersmål</li>
-        <li>Engelska - Tal och skrift</li>
-    </ul>
+        <h3>Personuppgifter</h3>
+        <p id="personuppgifter"></p>
 
-    <h3>Datorkunskaper</h3>
-    <ul>
-        <li>Adobe program såsom Illustrator, Photoshop etc.</li>
-        <li>3D-program som Blender</li>
-        <li>Microsoft Excel</li>
-        <li>C++ (läst i Programmering 1)</li>
-        <li>Kan programmera i HTML, CSS och JavaScript</li>
-    </ul>
+        <h3>Utbildning</h3>
+        <ul id="utbildning"></ul>
 
-    <h3>Tidigare arbete</h3>
-    <ul>
-        <li>Lagerarbetare/truckförare - ICA centrallager, 2017</li>
-        <li>Maskinoperatör - NKT Cables, 2017-2018</li>
-        <li>Stängselmontör - Dalarnas Bygg & El, 2018</li>
-        <li>Behandlingsassistent - Jonasborgs Stödboende, 2020</
+        <h3>Språk</h3>
+        <ul id="sprak"></ul>
 
-  
+        <h3>Datorkunskaper</h3>
+        <ul id="kunskaper"></ul>
+
+        <h3>Tidigare arbete</h3>
+        <ul id="arbete"></ul>
+    </div>
+
+    <script src="cv.js"></script>
 </body>
 </html>

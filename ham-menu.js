@@ -5,3 +5,6 @@ hamMenu.addEventListener('click', () => {
   hamMenu.classList.toggle('active'); // Växla hamburgariknappens utseende
   offScreenMenu.classList.toggle('active'); // Växla menyvisningen
 });
+
+
+// Source https://www.youtube.com/watch?v=aNDqzlAKmZc

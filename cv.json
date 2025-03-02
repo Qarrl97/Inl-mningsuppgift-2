@@ -1,0 +1,31 @@
+{
+  "personalInfo": {
+    "name": "Carl Andersson",
+    "age": 28,
+    "address": "Kopparvägen 31",
+    "phone": "070-1234567"
+  },
+  "education": [
+    { "school": "Bjursås skola", "degree": "Grundskola" },
+    { "school": "Lugnet Gymnasieskola i Falun", "degree": "Byggprogrammet" },
+    { "school": "NABA Universitet i Milano", "degree": "Creative Technologies" },
+    { "school": "YH-utbildning i frontendutveckling JavaScript", "degree": "Pågående" }
+  ],
+  "languages": [
+    { "language": "Svenska", "level": "Modersmål" },
+    { "language": "Engelska", "level": "Tal och skrift" }
+  ],
+  "skills": [
+    "Adobe program såsom Illustrator, Photoshop etc.",
+    "3D-program som Blender",
+    "Microsoft Excel",
+    "C++ (läst i Programmering 1)",
+    "Kan programmera i HTML, CSS och JavaScript"
+  ],
+  "workExperience": [
+    { "company": "ICA centrallager", "position": "Lagerarbetare/truckförare", "year": "2017" },
+    { "company": "NKT Cables", "position": "Maskinoperatör", "year": "2017-2018" },
+    { "company": "Dalarnas Bygg & El", "position": "Stängselmontör", "year": "2018" },
+    { "company": "Jonasborgs Stödboende", "position": "Behandlingsassistent", "year": "2020" }
+  ]
+}
